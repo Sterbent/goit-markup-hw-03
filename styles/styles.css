@@ -94,7 +94,7 @@ img {
 	display: flex;
 }
 .logo {
-	display: block;
+	display: inline-block;
 	color: var(--title-text-color);
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
@@ -190,7 +190,7 @@ img {
 	margin-top: 30px;
 
 	min-width: 200px;
-	/* height: 50px; */
+	
 
 	background-color: var(--accent-color);
 	color: var(--primary-white-color);
@@ -218,7 +218,7 @@ img {
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75) inset;
 }
 
-/* --------------------------------ОСОБЕННОСТИ------------------ */
+
 .peculiarities {
 	padding-bottom: 0;
 }
@@ -269,7 +269,7 @@ img {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 }
-/* --------------------------------ЧЕМ ЗАНИМАЕМСЯ------------------ */
+
 
 .works-title,
 .team-title,
@@ -298,7 +298,6 @@ img {
 
 .team {
 	background-color: var(--secondary-bg-color);
-	padding-bottom: 94px;
 }
 
 .team-list {
@@ -364,6 +363,7 @@ img {
 .place-link {
 	color: var(--primary-bg-color);
 	font-style: normal;
+	line-height: 1.71;
 }
 
 /* --------------------------------PORTFOLIO------------------ */
