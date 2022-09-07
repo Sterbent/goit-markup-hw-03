@@ -227,7 +227,7 @@ img {
 }
 
 .peculiarities-list-item {
-	min-width: 270px;
+	flex-basis: calc((100% - 90px)/4);
 }
 
 .peculiarities-list-item:not(:first-child) {
@@ -304,7 +304,7 @@ img {
 	display: flex;
 }
 .team-list-item {
-	flex-basis: calc(100% / 4 - 30px);
+	flex-basis: calc((100% - 90px)/4);
 
 	background-color: var(--primary-white-color);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
@@ -330,9 +330,7 @@ img {
 	font-size: 16px;
 	line-height: 1.18;
 }
-/* --------------------------------КЛИЕНТЫ------------------ */
-.clients-title {
-}
+
 /* --------------------------------FOOTER------------------ */
 
 .footer {
@@ -348,8 +346,7 @@ img {
 .adress {
 	margin-top: 20px;
 }
-.adress-list {
-}
+
 .adress-list-item + .adress-list-item {
 	margin-top: 9px;
 }
